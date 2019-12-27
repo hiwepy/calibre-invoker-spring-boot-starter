@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2018, vindell (https://github.com/vindell).
+ * Copyright (c) 2018, hiwepy (https://github.com/hiwepy).
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -46,7 +46,7 @@ package org.apache.maven.spring.boot.options;
  * then use the -h option.
  * </p>
  * https://manual.calibre-ebook.com/generated/en/ebook-convert.html
- * @author ： <a href="https://github.com/vindell">vindell</a>
+ * @author ： <a href="https://github.com/hiwepy">hiwepy</a>
  */
 public class EbookConvertOptions {
 

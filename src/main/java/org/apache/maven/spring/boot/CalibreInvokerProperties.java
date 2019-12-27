@@ -234,6 +234,10 @@ public class CalibreInvokerProperties {
 	 */
 	private String userSettings;
 
+	private boolean alsoMake = true;
+	private boolean alsoMakeDependents = true;
+	private boolean batchMode = true;
+	
 	public boolean isAlsoMake() {
 		return alsoMake;
 	}
