@@ -23,26 +23,25 @@ Spring Boot Starter For Calibre Invoker
 
 import javax.annotation.PostConstruct;
 
-import org.apache.maven.spring.boot.ext.MavenInvokerTemplate;
+import org.apache.maven.spring.boot.ext.CalibreInvokerTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@EnableMavenInvoker
 @SpringBootApplication
 public class Application {
 	
 	@Autowired
-	private MavenInvokerTemplate mavenInvokerTemplate;
+	private CalibreInvokerTemplate calibreInvokerTemplate;
 	
 	@PostConstruct
 	private void init() {
 		
-		//mavenInvokerTemplate.deploy(file, groupId, artifactId, version, packaging, url, repositoryId);
-		//mavenInvokerTemplate.deploy(basedir, file, groupId, artifactId, version, packaging, url, repositoryId);
+		//calibreInvokerTemplate.deploy(file, groupId, artifactId, version, packaging, url, repositoryId);
+		//calibreInvokerTemplate.deploy(basedir, file, groupId, artifactId, version, packaging, url, repositoryId);
 		
-		//mavenInvokerTemplate.execute(basedir, goals);
-		//mavenInvokerTemplate.execute(basedir, goals);
+		//calibreInvokerTemplate.execute(basedir, goals);
+		//calibreInvokerTemplate.execute(basedir, goals);
 		
 	}
 	
